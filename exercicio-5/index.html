@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Contato - TechWare Solutions</title>
+</head>
+
+<body>
+    <h1>Exercicio 05 - Formulário de Inscrição</h1>
+
+    <form>
+
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required placeholder="Ex:...Thiago Oliveira">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required placeholder="exemple@email.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="whatsapp">WhatsApp:</label><br>
+            <input type="tel" id="whatsapp" name="whatsapp" required placeholder="(77)99151-3763">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Área de atuação:</label><br>
+            <input type="radio" name="area" id="dev" value="dev" required>
+            <label for="dev">desenvolvimento</label>
+
+            <input type="radio" name="area" id="qa" value="qa" required>
+            <label for="qa" name>Quality Assunrace (QA)</label>
+
+            <input type="radio" name="area" id="dados" value="dados" required>
+            <label for="dados" name>Ánalise de Dados</label>
+
+            <input type="radio" name="area" id="infra" value="infra" required>
+            <label for="infraestrutura" name>Infraestrutura</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes" cols="40" rows="4" placeholder=></textarea>
+        </div>
+        
+        <br> 
+
+        <input type="checkbox" id="Interesses" value="Interesses" name="Interesses">
+        <label for="Interesses">Desejo receber novidades e ofertas por email.</label>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>
